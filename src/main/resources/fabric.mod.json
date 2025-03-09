@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tinycoal",
+  "version": "${version}",
+  "name": "TinyCoal",
+  "description": "This mod let you break Coal and Charcoal in 8 pieces that smelt 1 item",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/tinycoal/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.blocklegend001.tinycoal.client.TinyCoalClient"
+    ],
+    "main": [
+      "com.blocklegend001.tinycoal.TinyCoal"
+    ],
+    "fabric-datagen": [
+      "com.blocklegend001.tinycoal.datagen.DataGenerators"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
