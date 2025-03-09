@@ -1,0 +1,9 @@
+// 1.21	2025-02-02T20:29:59.477474	Recipes
+18a3aea12af6921166b52b5b5a679b0f2bff0567 data/minecraft/advancement/recipes/misc/charcoal.json
+6b38f7c8c0d891d58285c4163e22a99efbe24763 data/minecraft/advancement/recipes/misc/coal.json
+689a512d2b592c2d4b97a301e6a455cfb0034312 data/minecraft/recipe/charcoal.json
+c95cb5d532d3d77d3e110cb0dc6bd0c22faf210d data/minecraft/recipe/coal.json
+67bcffe583ec479a48020a66988f2fe59a016a39 data/tinycoal/advancement/recipes/misc/tiny_charcoal.json
+75cd19795211e132ce85bed9c26cb1c25e1faaee data/tinycoal/advancement/recipes/misc/tiny_coal.json
+d56498bd8a1c87fad34f4f73843e53a69edbb29e data/tinycoal/recipe/tiny_charcoal.json
+2ce81e02c67d76e8a52449f1fd51b606baf0f2a3 data/tinycoal/recipe/tiny_coal.json
