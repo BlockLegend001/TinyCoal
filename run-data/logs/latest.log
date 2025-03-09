@@ -1,0 +1,26 @@
+[02feb2025 16:58:53.486] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, tinycoal, --all, --output, D:\Programmazione\Mod\Tiny Coal\FORGE\1.21.1\src\generated\resources, --existing, D:\Programmazione\Mod\Tiny Coal\FORGE\1.21.1\src\main\resources]
+[02feb2025 16:58:53.490] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[02feb2025 16:58:53.492] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.5 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[02feb2025 16:58:53.595] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[02feb2025 16:58:53.699] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[02feb2025 16:58:54.780] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[02feb2025 16:58:55.485] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, tinycoal, --all, --output, D:\Programmazione\Mod\Tiny Coal\FORGE\1.21.1\src\generated\resources, --existing, D:\Programmazione\Mod\Tiny Coal\FORGE\1.21.1\src\main\resources]
+[02feb2025 16:59:02.423] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.22, for MC 1.21.1 with MCP 20240808.132146
+[02feb2025 16:59:02.423] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.22 Initialized
+[02feb2025 16:59:02.469] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[02feb2025 16:59:02.672] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'DebugIngredients' is not a valid config key for config category 'debug'.
+Valid keys: [DebugMode, DebugGuis, DebugInputs, debugInfoTooltipsEnabled, CrashingTestItemsEnabled, logSuffixTreeStats]
+Skipping this key.
+Config file: D:\Programmazione\Mod\Tiny Coal\FORGE\1.21.1\run-data\config\jei\jei-debug.ini
+Line #20: "	DebugIngredients = true"
+[02feb2025 16:59:02.707] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[02feb2025 16:59:02.712] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.957 ms
+[02feb2025 16:59:03.298] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [tinycoal]
+[02feb2025 16:59:03.385] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.22_mapped_official_1.21.1/forge-1.21.1-52.0.22_mapped_official_1.21.1.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[02feb2025 16:59:03.386] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.22_mapped_official_1.21.1/forge-1.21.1-52.0.22_mapped_official_1.21.1.jar%230!/data/.mcassetsroot' uses unexpected schema
+[02feb2025 16:59:03.522] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[02feb2025 16:59:03.759] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 237 ms
+[02feb2025 16:59:03.760] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: tinycoal
+[02feb2025 16:59:03.765] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: tinycoal finished after 4 ms
+[02feb2025 16:59:03.765] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 243 ms
+[02feb2025 16:59:03.771] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 10, old count: 10, new count: 11, removed stale: 0, written: 0
