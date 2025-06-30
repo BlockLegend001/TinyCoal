@@ -1,0 +1,9 @@
+// 1.21.6	-999999999-01-01T00:00:00	TinyCoal/TinyCoal Recipes
+30869b8d950b67bb0d5351212f1319bfd9396438 data/tinycoal/advancement/recipes/misc/charcoal.json
+a633b42b58adf159bc91912c815da7fbb67ae5c3 data/tinycoal/advancement/recipes/misc/coal.json
+67bcffe583ec479a48020a66988f2fe59a016a39 data/tinycoal/advancement/recipes/misc/tiny_charcoal.json
+75cd19795211e132ce85bed9c26cb1c25e1faaee data/tinycoal/advancement/recipes/misc/tiny_coal.json
+c5564ede29e0571746f258c70e1b13057ac34436 data/tinycoal/recipe/charcoal.json
+26d72a0c69adea9abc2dcdbbe74f207ed9169340 data/tinycoal/recipe/coal.json
+01383690681787449ac2f4d2ca229fe54e7d7529 data/tinycoal/recipe/tiny_charcoal.json
+c9e1c7f9e61955a4725cf9450f838f64d4c6343b data/tinycoal/recipe/tiny_coal.json
