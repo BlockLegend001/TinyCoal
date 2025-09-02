@@ -1,0 +1,1 @@
+- Fixed recipe conflict with vanilla coal recipe
