@@ -4,6 +4,7 @@ import com.blocklegend001.tinycoal.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 
 import java.util.concurrent.CompletableFuture;
@@ -35,12 +36,12 @@ public class ModRecipeProvider extends RecipeProvider {
         shapeless(RecipeCategory.MISC, ModItems.TINY_COAL.get(), 8)
                 .requires(Items.COAL)
                 .unlockedBy(getHasName(Items.COAL), has(Items.COAL))
-                .save(this.output);
+                .save(this.output, String.valueOf(ResourceLocation.fromNamespaceAndPath("tinycoal", "tiny_coal_from_coal")));
 
         shapeless(RecipeCategory.MISC, ModItems.TINY_CHARCOAL.get(), 8)
                 .requires(Items.CHARCOAL)
                 .unlockedBy(getHasName(Items.CHARCOAL), has(Items.CHARCOAL))
-                .save(this.output);
+                .save(this.output, String.valueOf(ResourceLocation.fromNamespaceAndPath("tinycoal", "tiny_charcoal_from_charcoal")));
 
         shaped(RecipeCategory.MISC, Items.COAL)
                 .pattern("CCC")
@@ -48,7 +49,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("CCC")
                 .define('C', ModItems.TINY_COAL.get())
                 .unlockedBy(getHasName(ModItems.TINY_COAL.get()), has(ModItems.TINY_COAL.get()))
-                .save(this.output);
+                .save(this.output, String.valueOf(ResourceLocation.fromNamespaceAndPath("tinycoal", "coal_from_tiny_coal")));
 
         shaped(RecipeCategory.MISC, Items.CHARCOAL)
                 .pattern("CCC")
@@ -56,6 +57,6 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("CCC")
                 .define('C', ModItems.TINY_CHARCOAL.get())
                 .unlockedBy(getHasName(ModItems.TINY_CHARCOAL.get()), has(ModItems.TINY_CHARCOAL.get()))
-                .save(this.output);
+                .save(this.output, String.valueOf(ResourceLocation.fromNamespaceAndPath("tinycoal", "charcoal_from_tiny_charcoal")));
     }
 }
