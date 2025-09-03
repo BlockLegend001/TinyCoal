@@ -1,1 +1,1 @@
-- Added REI compatibility
+- Fixed recipe conflict with vanilla coal recipe
