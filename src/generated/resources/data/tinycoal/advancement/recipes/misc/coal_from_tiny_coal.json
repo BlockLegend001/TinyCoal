@@ -1,32 +1,32 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_charcoal": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tinycoal:coal_from_tiny_coal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiny_coal": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:charcoal"
+            "items": "tinycoal:tiny_coal"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "tinycoal:tiny_charcoal"
-      },
-      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_charcoal"
+      "has_tiny_coal"
     ]
   ],
   "rewards": {
     "recipes": [
-      "tinycoal:tiny_charcoal"
+      "tinycoal:coal_from_tiny_coal"
     ]
   }
 }
