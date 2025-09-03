@@ -10,5 +10,6 @@ public class DataGenerators implements DataGeneratorEntrypoint {
 
         pack.addProvider(ModModelProvider::new);
         pack.addProvider(ModRecipeProvider::new);
+        pack.addProvider(ModItemTagProvider::new);
     }
 }
