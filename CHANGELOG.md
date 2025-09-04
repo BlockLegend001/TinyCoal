@@ -1,2 +1,2 @@
 - Fixed recipe conflict with vanilla coal recipe
-- Added REI dependencies
+- Added more tags
