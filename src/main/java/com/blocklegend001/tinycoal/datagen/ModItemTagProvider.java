@@ -20,6 +20,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TINY_COAL,
                         ModItems.TINY_CHAROAL);
 
+        getOrCreateTagBuilder(ItemTags.FURNACE_MINECART_FUEL)
+                .add(ModItems.TINY_COAL,
+                        ModItems.TINY_CHAROAL);
+
         getOrCreateTagBuilder(ConventionalItemTags.COAL)
                 .add(ModItems.TINY_COAL,
                         ModItems.TINY_CHAROAL);
