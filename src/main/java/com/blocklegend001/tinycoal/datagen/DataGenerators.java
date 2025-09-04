@@ -20,5 +20,6 @@ public class DataGenerators {
 
         generator.addProvider(event.includeServer(), new ModRecipeProvider.Runner(packOutput, lookupProvider));
         generator.addProvider(event.includeServer(), new ModItemModelProvider(packOutput, TinyCoal.MODID));
+        generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput, lookupProvider));
     }
 }
