@@ -22,5 +22,8 @@ public class DataGenerators {
 
         generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput, lookupProvider));
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, TinyCoal.MODID, existingFileHelper));
+        ModBlockTagProvider blockTagGenerator = generator.addProvider(event.includeServer(),
+                new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper));
+        generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput, lookupProvider, blockTagGenerator.contentsGetter(), existingFileHelper));
     }
 }
