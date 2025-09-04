@@ -1,4 +1,5 @@
 {
   "item.tinycoal.tiny_coal": "Кусочек угля",
-  "item.tinycoal.tiny_charcoal": "Кусочек древесного угля"
+  "item.tinycoal.tiny_charcoal": "Кусочек древесного угля",
+  "modmenu.descriptionTranslation.tinycoal": "Этот мод позволяет разбить уголь и древесный уголь на 8 частей, которые плавят 1 предмет"
 }
