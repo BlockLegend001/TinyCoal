@@ -20,5 +20,6 @@ public class DataGenerators {
 
         event.addProvider(new ModRecipeProvider.Runner(packOutput, lookupProvider));
         event.addProvider(new ModItemModelProvider(packOutput, TinyCoal.MODID));
+        event.addProvider(new ModItemTagProvider(packOutput, lookupProvider));
     }
 }
