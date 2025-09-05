@@ -1,1 +1,1 @@
-- Added more tags
+- Added Russian & Ukraine Language
