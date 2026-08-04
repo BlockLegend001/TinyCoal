@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": "tinycoal:tiny_coal"
+  },
+  "pattern": [
+    "CCC",
+    "C C",
+    "CCC"
+  ],
+  "result": {
+    "id": "minecraft:coal"
+  }
+}
